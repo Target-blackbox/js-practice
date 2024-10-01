@@ -23,5 +23,32 @@ let is_logged_in = false
 console.log(typeof undefined); // output is always undefined
 console.log(typeof null); //output is null  
 
+// primitive datatypes
+// 7 types: string, number, boolean, null, undefined, symbol, bigInt, 
+
+const id = Symbol('123')
+const aid =  Symbol('123')
+console.log(id === aid);
+
+//const bnum = 8765456785678n // bigint
+
+
+//******javascript is dynamically typed language//*********** */
+
+// reference type (non-primetive)
+// arrays, objects, functions
+
+const h = ["ironman", "doga", "fly"]
+let obj={
+    name:"akhil",
+    age:22,
+}
+
+
+const myfunction=function(){
+    console.log("hello world");
+}
+
+
 
 
