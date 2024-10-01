@@ -25,3 +25,28 @@ console.log(string);
 
 console.log(typeof string);
 
+// operations //
+
+let value = 3
+let negvalue = -value
+console.log(negvalue);
+
+let str1 = "akhil"
+let str2 = " hello"
+
+let str3 = str2+str1
+console.log(str3);
+console.log(+true);
+console.log(+"");
+
+
+let num1,num2,num3
+num1 = num2 = num3 = 2+2
+
+let gc = 100
+gc++
+console.log(gc);
+++gc
+console.log(gc);
+
+
