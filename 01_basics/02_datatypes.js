@@ -50,5 +50,28 @@ const myfunction=function(){
 }
 
 
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+
+//memory are of two types
+// stack, heap
+//primitive type uses stack
+//non-premetive uses heap
+let mytname = "freakstar"
+let aytname = mytname
+aytname = "MR.POKER"
+console.log(aytname);
+console.log(mytname);
+let userOne = {
+    email:"asdasd@gmail.com",
+    upi:"asdasd@ybl"
+}
+let userTwo = userOne
+
+userTwo.email = "akhil@gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
 
 
